@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #131010;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side{
+    display: flex;
+    margin-left: 5.2rem;
+    align-items: center;
+    gap: 25px;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    margin-right: 5.5rem;
+    gap: 3rem;
+
+}
+
+.right-side input{
+    width: 13rem;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+
+.right-side button{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.right-side button a{
+    text-decoration: none;
+    color: #606470;
+}
+
+.ph-user{
+    font-size: 1.8rem;
+    color: #606470;
+    
+}
+
+.ph-caret-down{
+    
+    font-size: 1.5rem;
+    color: #606470;
+    
+}
+.store{
+    margin-right: 2rem;
+    padding: 5px;
+}
+
+.store img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    margin-top: 4px;
+}
+
+.left-side a{
+    display: flex;
+    text-decoration: none;
+    color: #a3a4ab;
+    font-size: 1.3rem;
+    align-items: center;
+    gap: 5px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F7F7F7;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+    margin: 1rem;
+    
+}
+
+.banner img{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid 3px #323643;
+}
+
+.sub-container{
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.sub-item1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    /* background-color: #323643; */
+    
+}
+
+.sub-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    height: 3rem;
+    gap: 1rem;
+}
+
+.icon{
+    height: auto;
+    border: solid 2px #a3a4ab;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+}
+
+.ph-cpu{
+    font-size: 3rem;
+    color: #1B56FD;
+}
+
+
+.ph-memory{
+    font-size: 3rem;
+    color: #1B56FD;
+}
+
+.ph-hard-drive{
+    font-size: 3rem;
+    color: #1B56FD;
+}
+
+.ph-laptop{
+    font-size: 3rem;
+    color: #1B56FD;
+}
+
+.ph-map-pin{
+    font-size: 1.2rem;
+    color: #a3a4ab;
+}
+
+.text{
+    font-size: 1.5rem;
+    color: #323643;
+}
+
+.sub-text{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-text button{
+    font-size: 1.2rem;
+    color: #606470;
+    margin-top: 0.5rem;
+}
+
+.show-all-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 5px;
+}
+
+.text-show span{
+    font-size: 18px;
+}
+
+.down-icon .ph-caret-down{
+    font-size: 0.8rem;
+    color: black;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.product-item{
+    width: 23%;
+    height: 25rem;
+    /* background-color: gray; */
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /* margin-bottom: 2rem; */
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #a3a4ab;
+    margin-top: 1.2rem;
+    margin-left: 7rem;
+    justify-content: space-between;
+
+}
+
+.product-image{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.product-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.product-info h4{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.product-info p{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.best-search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 79%;
+    height: 6rem;
+    background-color: #222831;
+    border-radius: 10px;
+}
+
+.best-search{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    /* align-items: center; */
+    /* padding:0 2rem; */
+}
+
+.desc{
+    width: 80%;
+    font-size: 1.2rem;
+    color: white;
+    
+}
+
+.search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    height: 3rem;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #FE7743;
+}
+
+.search-button a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #131010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: whitesmoke;
+}
+
+.map{
+    width: 60%;
+    margin-top: 2rem;
+}
+
+
+.contact-container{
+    width: 60%;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #222831;
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
+
+.contact-container hr {
+  border: none;
+  border-top: 3px solid white;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    /* margin-left: rem; */
+    gap: 2rem;
+}
+
+.ph-instagram-logo,
+.ph-facebook-logo{
+    font-size: 3rem;
+    color: #FE7743;
+    cursor: pointer;
+}
